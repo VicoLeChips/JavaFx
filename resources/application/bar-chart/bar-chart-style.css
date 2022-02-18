@@ -1,0 +1,12 @@
+.data0.chart-bar {
+  -fx-bar-fill: red;
+}
+.data1.chart-bar {
+  -fx-bar-fill: blue;
+}
+.data2.chart-bar {
+  -fx-bar-fill: green;
+}
+.data3.chart-bar {
+  -fx-bar-fill: orange;
+}

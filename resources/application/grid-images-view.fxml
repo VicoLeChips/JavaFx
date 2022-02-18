@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+          prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <children>
+        <ImageView fitHeight="291.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true"
+                   GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <image>
+                <Image url="@grid-image/AceSpade.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="291.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1"
+                   GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <image>
+                <Image url="@grid-image/AceHearts.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="291.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2"
+                   GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <image>
+                <Image url="@grid-image/AceClubs.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="291.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3"
+                   GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <image>
+                <Image url="@grid-image/AceDiamonds.png"/>
+            </image>
+        </ImageView>
+    </children>
+</GridPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.BarChartController">
+    <children>
+        <BarChart fx:id="GradeChart" layoutX="50.0" legendVisible="false" stylesheets="@bar-chart/bar-chart-style.css"
+                  title="Grades proportion">
+            <xAxis>
+                <CategoryAxis label="Grade" side="BOTTOM" fx:id="xAxis"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" autoRanging="false" label="Proportion (in %)" side="LEFT" upperBound="50.0"/>
+            </yAxis>
+        </BarChart>
+    </children>
+</AnchorPane>
